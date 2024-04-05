@@ -24,7 +24,8 @@ cards.forEach(card =>{
                     if (!newDupla) {
                     card.textContent = `${arrayLetters[card.getAttribute("posicao")]}`
                     card.classList.add("B")
-                    setTimeout(resetCards, 1000)
+                    count = 3;
+                    setTimeout(resetCards, 2000)
                     }
                 
             }
